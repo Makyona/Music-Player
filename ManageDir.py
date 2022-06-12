@@ -47,8 +47,6 @@ def view():
             dirs.destroy()
         else:
             refresh()
-        #if dires != []:
-        #    dirs['text'] = str(dires)
         f.close()
     except(FileNotFoundError):
         refresh()
